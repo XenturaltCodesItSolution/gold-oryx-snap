@@ -12,44 +12,44 @@ import southIndianThali from "@/assets/south-indian-thali.jpg";
 
 const menuData = {
   breakfast: [
-    { name: "Idli/Vada/Dosa", price: "₹80", description: "Traditional South Indian breakfast" },
-    { name: "Dhokla Fafda/Dhokla per plate", price: "₹50", description: "Gujarati steamed cake with chutney" },
-    { name: "Uttapa Rava Dosa", price: "₹90", description: "Thick pancake with vegetables" },
-    { name: "Set Dosa per plate", price: "₹70", description: "Mini dosas served as set" },
-    { name: "Masala Dosa", price: "₹100", description: "Crispy dosa with spiced potato filling" },
-    { name: "Rava Dosa", price: "₹110", description: "Semolina crepe crispy and light" },
-    { name: "Cheese Bhajiya", price: "₹120", description: "Cheese fritters with spices" }
+    { name: "Idli/Vada/Dosa", price: "AED 22", description: "Traditional South Indian breakfast" },
+    { name: "Dhokla Fafda/Dhokla per plate", price: "AED 14", description: "Gujarati steamed cake with chutney" },
+    { name: "Uttapa Rava Dosa", price: "AED 25", description: "Thick pancake with vegetables" },
+    { name: "Set Dosa per plate", price: "AED 19", description: "Mini dosas served as set" },
+    { name: "Masala Dosa", price: "AED 28", description: "Crispy dosa with spiced potato filling" },
+    { name: "Rava Dosa", price: "AED 30", description: "Semolina crepe crispy and light" },
+    { name: "Cheese Bhajiya", price: "AED 33", description: "Cheese fritters with spices" }
   ],
   lunch: [
-    { name: "North Indian Thali", price: "₹150", description: "Complete North Indian meal with roti, dal, rice" },
-    { name: "Gujarati Unlimited", price: "₹180", description: "Unlimited Gujarati thali with varieties" },
-    { name: "Punjabi Chole", price: "₹120", description: "Spicy chickpea curry" },
-    { name: "Rajasthani Thali", price: "₹170", description: "Traditional Rajasthani meal platter" },
-    { name: "Seasonal Thali", price: "₹160", description: "Seasonal vegetables and specialties" }
+    { name: "North Indian Thali", price: "AED 42", description: "Complete North Indian meal with roti, dal, rice" },
+    { name: "Gujarati Unlimited", price: "AED 50", description: "Unlimited Gujarati thali with varieties" },
+    { name: "Punjabi Chole", price: "AED 33", description: "Spicy chickpea curry" },
+    { name: "Rajasthani Thali", price: "AED 47", description: "Traditional Rajasthani meal platter" },
+    { name: "Seasonal Thali", price: "AED 44", description: "Seasonal vegetables and specialties" }
   ],
   starters: [
-    { name: "Paneer Chowmein", price: "₹80", description: "Indo-Chinese noodles with paneer" },
-    { name: "Paneer Tikka Masala", price: "₹120", description: "Grilled paneer in rich gravy" },
-    { name: "Paneer Crispy Tikka", price: "₹110", description: "Crispy fried paneer tikka" },
-    { name: "Masala Paneer Tikka", price: "₹100", description: "Spiced paneer tikka" },
-    { name: "Paneer Pakora Tikka", price: "₹90", description: "Paneer fritters tikka style" },
-    { name: "Paneer Chilly Maily Seekh", price: "₹130", description: "Spicy paneer seekh kebab" },
-    { name: "Paneer Chilly Kada Seekh", price: "₹140", description: "Hard spicy paneer seekh" }
+    { name: "Paneer Chowmein", price: "AED 22", description: "Indo-Chinese noodles with paneer" },
+    { name: "Paneer Tikka Masala", price: "AED 33", description: "Grilled paneer in rich gravy" },
+    { name: "Paneer Crispy Tikka", price: "AED 30", description: "Crispy fried paneer tikka" },
+    { name: "Masala Paneer Tikka", price: "AED 28", description: "Spiced paneer tikka" },
+    { name: "Paneer Pakora Tikka", price: "AED 25", description: "Paneer fritters tikka style" },
+    { name: "Paneer Chilly Maily Seekh", price: "AED 36", description: "Spicy paneer seekh kebab" },
+    { name: "Paneer Chilly Kada Seekh", price: "AED 39", description: "Hard spicy paneer seekh" }
   ],
   mainCourse: [
-    { name: "Paneer Tikka Masala", price: "₹180", description: "Rich creamy paneer curry" },
-    { name: "Paneer Mangan Tikka Masala", price: "₹200", description: "Special mangan style paneer" },
-    { name: "Kadhai Paneer", price: "₹170", description: "Paneer cooked in kadhai" },
-    { name: "Paneer Tikka Masala", price: "₹180", description: "Classic paneer in tomato gravy" },
-    { name: "Palak Paneer Masala", price: "₹160", description: "Paneer in spinach gravy" },
-    { name: "Paneer Butter Masala", price: "₹190", description: "Creamy butter paneer curry" },
-    { name: "Paneer Lababdar", price: "₹180", description: "Rich and creamy paneer curry" },
-    { name: "Paneer Kolhapuri", price: "₹170", description: "Spicy Kolhapuri style paneer" },
-    { name: "Paneer Bhurji", price: "₹150", description: "Scrambled paneer with spices" },
-    { name: "Rajma Masala", price: "₹140", description: "Red kidney beans curry" },
-    { name: "Jeera Chawal", price: "₹80", description: "Cumin flavored rice" },
-    { name: "Garlic Hakka/masala", price: "₹90", description: "Garlic flavored hakka noodles" },
-    { name: "Paneer Hakka/masala", price: "₹110", description: "Paneer hakka noodles" }
+    { name: "Paneer Tikka Masala", price: "AED 50", description: "Rich creamy paneer curry" },
+    { name: "Paneer Mangan Tikka Masala", price: "AED 55", description: "Special mangan style paneer" },
+    { name: "Kadhai Paneer", price: "AED 47", description: "Paneer cooked in kadhai" },
+    { name: "Paneer Tikka Masala", price: "AED 50", description: "Classic paneer in tomato gravy" },
+    { name: "Palak Paneer Masala", price: "AED 44", description: "Paneer in spinach gravy" },
+    { name: "Paneer Butter Masala", price: "AED 53", description: "Creamy butter paneer curry" },
+    { name: "Paneer Lababdar", price: "AED 50", description: "Rich and creamy paneer curry" },
+    { name: "Paneer Kolhapuri", price: "AED 47", description: "Spicy Kolhapuri style paneer" },
+    { name: "Paneer Bhurji", price: "AED 42", description: "Scrambled paneer with spices" },
+    { name: "Rajma Masala", price: "AED 39", description: "Red kidney beans curry" },
+    { name: "Jeera Chawal", price: "AED 22", description: "Cumin flavored rice" },
+    { name: "Garlic Hakka/masala", price: "AED 25", description: "Garlic flavored hakka noodles" },
+    { name: "Paneer Hakka/masala", price: "AED 30", description: "Paneer hakka noodles" }
   ]
 };
 
