@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Menu, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
         </Button>
 
         {/* Logo Section */}
-        <div className="flex items-center space-x-3">
+        <Link to="/" className="flex items-center space-x-3 hover:opacity-90 transition-smooth">
           <div className="w-12 h-12 bg-primary-foreground rounded-full flex items-center justify-center">
             <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm">R</span>
@@ -22,7 +23,7 @@ const Header = () => {
             <h1 className="text-xl font-bold text-primary-foreground">Rama's Kitchen</h1>
             <p className="text-xs text-primary-foreground/80 uppercase tracking-wide">Pure Indian, Pure Veg, Pure Joy!</p>
           </div>
-        </div>
+        </Link>
 
         {/* Contact Button */}
         <Button variant="secondary" size="sm" className="bg-primary-foreground text-primary hover:bg-secondary spice-glow">

@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail, Clock } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -40,8 +41,8 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-primary-foreground/80 hover:text-secondary transition-smooth">Home</a></li>
-              <li><a href="#" className="text-primary-foreground/80 hover:text-secondary transition-smooth">Menu</a></li>
+              <li><Link to="/" className="text-primary-foreground/80 hover:text-secondary transition-smooth">Home</Link></li>
+              <li><Link to="/menu" className="text-primary-foreground/80 hover:text-secondary transition-smooth">Menu</Link></li>
               <li><a href="#" className="text-primary-foreground/80 hover:text-secondary transition-smooth">About Us</a></li>
               <li><a href="#" className="text-primary-foreground/80 hover:text-secondary transition-smooth">Gallery</a></li>
               <li><a href="#" className="text-primary-foreground/80 hover:text-secondary transition-smooth">Catering</a></li>

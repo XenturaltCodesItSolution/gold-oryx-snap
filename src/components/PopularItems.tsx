@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import idliVadaDosa from "@/assets/idli-vada-dosa.jpg";
 import pavBhaji from "@/assets/pav-bhaji.jpg";
 import jigarthanda from "@/assets/jigarthanda.jpg";
@@ -58,13 +59,15 @@ const PopularItems = () => {
 
         {/* View Full Menu Button */}
         <div className="text-center">
-          <Button 
-            variant="default" 
-            size="lg" 
-            className="bg-primary hover:bg-primary-light text-primary-foreground shadow-elegant transition-bounce"
-          >
-            View Full Menu →
-          </Button>
+          <Link to="/menu">
+            <Button 
+              variant="default" 
+              size="lg" 
+              className="bg-primary hover:bg-primary-light text-primary-foreground shadow-elegant transition-bounce"
+            >
+              View Full Menu →
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
